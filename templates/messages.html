@@ -1,0 +1,10 @@
+
+  <div class="row">
+    {% if messages %}
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 alert-success text-center p-2">      
+        {% for message in messages %}
+          {{ message }}
+        {% endfor %}
+    {% endif %}
+    </div>
+  </div>
